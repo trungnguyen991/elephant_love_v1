@@ -53,7 +53,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'figaro'
-gem 'puma'
+gem 'puma', '~> 3.0'
 group :development do
   gem 'capistrano'
   gem 'capistrano3-puma'
@@ -61,3 +61,5 @@ group :development do
   gem 'capistrano-bundler', require: false
   gem 'capistrano-rvm'
 end
+
+gem 'devise'
